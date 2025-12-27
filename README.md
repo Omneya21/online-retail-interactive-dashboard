@@ -1,49 +1,60 @@
-# 🛒 Online Retail Interactive Dashboard & Analytics Portfolio
+# 🛒 Online Retail Analytics & Interactive Dashboard Portfolio
 
-## 🚀 Live Interactive Dashboard
-**No setup needed — open in any browser!**  
-Click dropdowns, hover for details, explore insights yourself.
+## 🚀 Live Interactive Dashboards
+**No installation required — open in any browser!**
 
-[Open Super Interactive Dashboard](super_interactive_retail_dashboard.html)
+- [Super Interactive Dashboard (Main)](super_interactive_retail_dashboard.html) — Full dashboard with filters & hover insights
+- [Realistic Sales Forecast (Interactive)](realistic_sales_forecast.html) — Forecast with capped growth for next 12 months
 
-[Open Basic Interactive Dashboard](online_retail_dashboard.html)
+## 📊 Static Visualizations
+![Online Retail Interactive Dashboard](Online_Retail_Interactive_Dashboard.png)
 
-## 📊 Project Overview
-End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
+![Sales Forecast with Capped Growth](Sales_Forecast_with_Capped_Growth.png)
 
-- Data cleaning & preparation (handling cancellations, missing values)
-- Exploratory Data Analysis (EDA)
-- Customer Segmentation with RFM
-- Retention Analysis with Cohort Heatmap
-- **Fully interactive dashboards** using Plotly (filters, hover tooltips, zoom)
+![Customer Cohort Retention Heatmap](cohort_heatmap.png)
 
-**Key Insights** (explore them in the dashboard!):
-- UK dominates ~90% of sales
-- Massive sales peak in November (Christmas season)
+## 📈 Project Overview
+End-to-end data analysis of an online retail dataset (2009-2011, ~780k transactions):
+
+- **Data Cleaning & Preparation** (handling cancellations, missing values, outliers)
+- **Exploratory Data Analysis (EDA)**
+- **Customer Segmentation** using RFM analysis
+- **Customer Retention** with Cohort analysis
+- **Time Series Forecasting** using Prophet (with realistic capped growth)
+- **Interactive Dashboards** built with Plotly (fully explorable without code)
+
+**Key Business Insights**:
+- UK accounts for ~90% of total sales
+- Strong seasonal peak in November (holiday season)
 - Most products priced under $5
-- Most orders are small quantities
-- Top customers drive huge revenue
+- Most orders are small (1-10 items)
+- Top customers drive significant revenue
+- Forecast shows continued growth with realistic limits
 
-## 📁 Files
-- `notebook_source_.ipynb` — Full code, cleaning, RFM, Cohort
-- `super_interactive_retail_dashboard.html` — Main interactive dashboard (recommended!)
-- `online_retail_dashboard.html` — Alternative dashboard
-- `cohort_heatmap.png` — Customer retention visualization
+## 📁 Repository Files
+- `online-retail-analytics-portfolio.ipynb` — Complete analysis notebook (cleaning, RFM, cohort, forecasting)
+- `super_interactive_retail_dashboard.html` — Main interactive dashboard (recommended)
+- `realistic_sales_forecast.html` — Interactive sales forecast
+- `Online_Retail_Interactive_Dashboard.png` — Dashboard screenshot
+- `Sales_Forecast_with_Capped_Growth.png` — Forecast visualization
+- `cohort_heatmap.png` — Customer retention heatmap
 
 ## 🛠️ Tech Stack
 - Python (pandas, sqlite3)
+- Forecasting: Prophet
 - Visualization: Plotly (interactive), Seaborn/Matplotlib
-- Database: SQLite
+- Database: SQLite (normalized schema)
 
 ## ⚡ How to Explore
-1. Click any HTML file above — opens instantly in browser
-2. Play with dropdowns and hover to discover insights yourself
-3. Or run the notebook in Kaggle/Colab for code details
+1. Click any `.html` file above — opens instantly in your browser
+2. Hover, zoom, and explore insights interactively
+3. Or run the notebook in Kaggle/Colab for full code
 
-Built to be accessible — even non-technical users can explore and learn.
+Built for clarity — technical and non-technical users can discover insights easily.
 
 ---
 
-**By Omneya Saeid** | GitHub: [@Omneya21](https://github.com/Omneya21)
+**By Omneya Saeid**  
+GitHub: [@Omneya21](https://github.com/Omneya21)
 
-⭐ Star if you like it! Feel free to use or fork for your portfolio.
+⭐ Star the repo if you found it useful!
