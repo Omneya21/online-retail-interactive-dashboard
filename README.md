@@ -9,13 +9,13 @@
 ## 📊 Key Visualizations
 
 ### Full Interactive Dashboard
-![Online Retail Interactive Dashboard](Online_Retail_Interactive_Dashboard.png)
+![Online Retail Dashboard](online_retail_dashboard.png)
 
 ### Sales Forecast with Capped Growth
-![Sales Forecast with Capped Growth](Sales_Forecast_with_Capped_Growth.png)
+![Sales Forecast](sales_forecast.png)
 
 ### Customer Cohort Retention Heatmap
-![Customer Cohort Retention](cohort_heatmap.png)
+![Cohort Heatmap](cohort_heatmap.png)
 
 ## 📈 Project Overview
 End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
@@ -24,7 +24,7 @@ End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
 - Exploratory Data Analysis (EDA)
 - Customer Segmentation with RFM
 - Retention Analysis with Cohort
-- Time Series Forecasting using Prophet (with capped growth for realism)
+- Time Series Forecasting using Prophet (with capped growth)
 - Interactive dashboards with Plotly
 
 **Key Insights**:
@@ -39,8 +39,8 @@ End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
 - `online-retail-analytics-portfolio.ipynb` — Full code & analysis
 - `super_interactive_retail_dashboard.html` — Main interactive dashboard
 - `realistic_sales_forecast.html` — Interactive forecast
-- `Online_Retail_Interactive_Dashboard.png` — Dashboard screenshot
-- `Sales_Forecast_with_Capped_Growth.png` — Forecast visualization
+- `online_retail_dashboard.png` — Dashboard screenshot
+- `sales_forecast.png` — Forecast visualization
 - `cohort_heatmap.png` — Retention heatmap
 
 ## 🛠️ Tech Stack
