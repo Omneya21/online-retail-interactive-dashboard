@@ -1,10 +1,10 @@
 # 🛒 Online Retail Analytics & Interactive Dashboard Portfolio
 
 ## 🚀 Live Interactive Dashboards
-**No setup needed — open in any browser for full interactivity!**
+**No setup needed - open in any browser for full interactivity!**
 
-- [Super Interactive Dashboard](super_interactive_retail_dashboard.html) — Full dashboard with hover tooltips, zoom, and filters
-- [Realistic Sales Forecast](realistic_sales_forecast.html) — Interactive forecast for next 12 months
+- [Super Interactive Dashboard](super_interactive_retail_dashboard.html) - Full dashboard with hover tooltips, zoom, and filters
+- [Realistic Sales Forecast](realistic_sales_forecast.html) - Interactive forecast for next 12 months
 
 ## 📊 Key Visualizations
 
@@ -36,12 +36,12 @@ End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
 - Forecast shows continued growth with realistic limits
 
 ## 📁 Repository Files
-- `online-retail-analytics-portfolio.ipynb` — Complete code, cleaning, RFM, cohort, forecasting
-- `super_interactive_retail_dashboard.html` — Main interactive dashboard (recommended)
-- `realistic_sales_forecast.html` — Interactive sales forecast
-- `online_retail_dashboard.png` — Dashboard screenshot
-- `sales_forecast.png` — Forecast visualization
-- `cohort_heatmap.png` — Customer retention heatmap
+- `online-retail-analytics-portfolio.ipynb` - Complete code, cleaning, RFM, cohort, forecasting
+- `super_interactive_retail_dashboard.html` - Main interactive dashboard (recommended)
+- `realistic_sales_forecast.html` - Interactive sales forecast
+- `online_retail_dashboard.png` - Dashboard screenshot
+- `sales_forecast.png` - Forecast visualization
+- `cohort_heatmap.png` - Customer retention heatmap
 
 ## 🛠️ Tech Stack
 - Python (pandas, sqlite3)
@@ -54,7 +54,7 @@ End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
 2. View PNG images for quick visual insights
 3. Run the notebook in Kaggle or Colab for full code details
 
-Built for clarity — technical and non-technical users can discover insights easily.
+Built for clarity - technical and non-technical users can discover insights easily.
 
 ---
 
