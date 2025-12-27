@@ -1,60 +1,61 @@
 # 🛒 Online Retail Analytics & Interactive Dashboard Portfolio
 
-## 🚀 Live Interactive Dashboards
-**No installation required — open in any browser!**
+## 🚀 Interactive Dashboards (Open in Browser)
+**No setup needed — click to explore interactively!**
 
-- [Super Interactive Dashboard (Main)](super_interactive_retail_dashboard.html) — Full dashboard with filters & hover insights
-- [Realistic Sales Forecast (Interactive)](realistic_sales_forecast.html) — Forecast with capped growth for next 12 months
+- [Super Interactive Dashboard](super_interactive_retail_dashboard.html) — Full dashboard with hover & zoom
+- [Realistic Sales Forecast](realistic_sales_forecast.html) — Forecast for next 12 months
 
-## 📊 Static Visualizations
+## 📊 Key Visualizations
+
+### Full Interactive Dashboard
 ![Online Retail Interactive Dashboard](Online_Retail_Interactive_Dashboard.png)
 
+### Sales Forecast with Capped Growth
 ![Sales Forecast with Capped Growth](Sales_Forecast_with_Capped_Growth.png)
 
-![Customer Cohort Retention Heatmap](cohort_heatmap.png)
+### Customer Cohort Retention Heatmap
+![Customer Cohort Retention](cohort_heatmap.png)
 
 ## 📈 Project Overview
-End-to-end data analysis of an online retail dataset (2009-2011, ~780k transactions):
+End-to-end analysis of an online retail dataset (2009-2011, ~780k transactions):
 
-- **Data Cleaning & Preparation** (handling cancellations, missing values, outliers)
-- **Exploratory Data Analysis (EDA)**
-- **Customer Segmentation** using RFM analysis
-- **Customer Retention** with Cohort analysis
-- **Time Series Forecasting** using Prophet (with realistic capped growth)
-- **Interactive Dashboards** built with Plotly (fully explorable without code)
+- Data cleaning & preparation
+- Exploratory Data Analysis (EDA)
+- Customer Segmentation with RFM
+- Retention Analysis with Cohort
+- Time Series Forecasting using Prophet (with capped growth for realism)
+- Interactive dashboards with Plotly
 
-**Key Business Insights**:
-- UK accounts for ~90% of total sales
-- Strong seasonal peak in November (holiday season)
-- Most products priced under $5
-- Most orders are small (1-10 items)
-- Top customers drive significant revenue
+**Key Insights**:
+- UK dominates ~90% of sales
+- Strong November peak (holiday season)
+- Most products under $5
+- Most orders small (1-10 items)
+- Top customers drive major revenue
 - Forecast shows continued growth with realistic limits
 
 ## 📁 Repository Files
-- `online-retail-analytics-portfolio.ipynb` — Complete analysis notebook (cleaning, RFM, cohort, forecasting)
-- `super_interactive_retail_dashboard.html` — Main interactive dashboard (recommended)
-- `realistic_sales_forecast.html` — Interactive sales forecast
+- `online-retail-analytics-portfolio.ipynb` — Full code & analysis
+- `super_interactive_retail_dashboard.html` — Main interactive dashboard
+- `realistic_sales_forecast.html` — Interactive forecast
 - `Online_Retail_Interactive_Dashboard.png` — Dashboard screenshot
 - `Sales_Forecast_with_Capped_Growth.png` — Forecast visualization
-- `cohort_heatmap.png` — Customer retention heatmap
+- `cohort_heatmap.png` — Retention heatmap
 
 ## 🛠️ Tech Stack
 - Python (pandas, sqlite3)
 - Forecasting: Prophet
-- Visualization: Plotly (interactive), Seaborn/Matplotlib
-- Database: SQLite (normalized schema)
+- Visualization: Plotly (interactive), Matplotlib/Seaborn
+- Database: SQLite
 
 ## ⚡ How to Explore
-1. Click any `.html` file above — opens instantly in your browser
-2. Hover, zoom, and explore insights interactively
-3. Or run the notebook in Kaggle/Colab for full code
-
-Built for clarity — technical and non-technical users can discover insights easily.
+1. Click HTML files for interactive experience
+2. View PNG images for quick insights
+3. Run the notebook in Kaggle/Colab for details
 
 ---
 
-**By Omneya Saeid**  
-GitHub: [@Omneya21](https://github.com/Omneya21)
+**By Omneya Saeid** | GitHub: [@Omneya21](https://github.com/Omneya21)
 
-⭐ Star the repo if you found it useful!
+⭐ Star if useful!
