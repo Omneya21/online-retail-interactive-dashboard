@@ -9,10 +9,10 @@
 ## 📊 Key Visualizations
 
 ### Full Interactive Dashboard
-![Online Retail Dashboard](online_retail_dashboard.png)
+![Online Retail Dashboard](Online Retail Interactive Dashboard.png)
 
 ### Sales Forecast with Capped Growth
-![Sales Forecast](sales_forecast.png)
+![Sales Forecast](Sales Forecast with Capped Growth.png)
 
 ### Customer Cohort Retention Heatmap
 ![Cohort Heatmap](cohort_heatmap.png)
